@@ -13,7 +13,11 @@ export default {
 
             colors: {
                 primary: {
-                    text: '#3C3E41'
+                    text: '#3C3E41',
+                    heading: '#3d485a'
+                },
+                secondary: {
+                    text: '#637289'
                 }
             }
         },

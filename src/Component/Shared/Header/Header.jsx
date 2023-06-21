@@ -12,7 +12,7 @@ const Header = () => {
     useEffect(() => {
         const handleScroll = debounce(() => {
             setScroll(window.scrollY > 90);
-        }, 50);
+        }, 5);
 
         window.addEventListener('scroll', handleScroll);
 
@@ -35,7 +35,7 @@ const Header = () => {
     let [open, setOpen] = useState(true)
 
     return (
-        <div className={`${scroll ? 'bg-[#ffffffa9] shadow-sm backdrop-blur-xl' : ' bg-transparent shadow-none '}  header z-[15] sticky top-0 -mb-24`}>
+        <div className={`${scroll ? 'bg-[#e0e5ebd6] shadow-sm backdrop-blur' : ' bg-transparent shadow-none '}  header z-[15] sticky top-0 -mb-24`}>
             <div className={`max-w-6xl mx-auto flex transition-all duration-500 ease-in-out ${scroll ? 'h-auto md:h-[70px]' : 'h-auto md:h-[90px]'}`}>
                 <div className='w-full md:w-2/12 bg-slate-100 md:bg-transparent  py-4 flex z-20'>
                     <NavLink className='  px-4 flex items-center ' to='/'> <img className={`w-[10%] transition-all duration-500 ease-in-out ${scroll ? 'md:w-[30%]' : 'md:w-[35%]'}`} src="/logo.png" alt="" /></NavLink>
@@ -43,7 +43,7 @@ const Header = () => {
                         {open ? <RxHamburgerMenu /> : <RxCross2 />}
                     </div>
                 </div>
-                <ul className={`w-full md:w-10/12 md:backdrop-blur-0 opacity-[95%]  text-right absolute md:static bg-[#ffffffdd] backdrop-blur-xl  md:bg-transparent  flex md:flex-row flex-col md:items-center justify-end z-10 gap-2 px-4 pt-6 pb-2 md:py-4 transition-all duration-500 ease-in-out ${open ? 'top-[-450px]' : 'top-12'}`}>
+                <ul className={`w-full md:w-10/12 md:backdrop-blur-0 opacity-[95%]  text-right absolute md:static bg-[#ffffffdd] backdrop-blur-xl  md:bg-transparent  flex md:flex-row flex-col md:items-center justify-end items-start z-10 gap-4 px-4 pt-8 pb-4 md:py-4 transition-all duration-500 ease-in-out ${open ? 'top-[-450px]' : 'top-12'}`}>
 
                     {
                         items.map(item =>
@@ -58,7 +58,7 @@ const Header = () => {
                                     smooth={true}
                                     duration={500}
                                     activeClass={activeClass}
-                                    className='px-2'
+                                    className='px-2 text-[17px] '
 
 
                                 > {item.name}</LinkScroll>
