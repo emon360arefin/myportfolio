@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <div>
+        <div id='home' className='h-screen bg-blue-200'>
             <h2>Hero</h2>
         </div>
     );

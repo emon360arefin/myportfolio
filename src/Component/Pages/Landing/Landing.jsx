@@ -2,17 +2,15 @@ import React from 'react';
 import Header from '../../Shared/Header/Header';
 import { Outlet } from 'react-router-dom';
 import Footer from '../../Shared/Footer/Footer';
-import HeroSection from './HeroSection/HeroSection';
-import About from './About/About';
 
-const Home = () => {
+const Landing = () => {
     return (
         <div>
-            <HeroSection></HeroSection>
-            <About></About>
-            
+            <Header></Header>
+            <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };
 
-export default Home;
+export default Landing;
