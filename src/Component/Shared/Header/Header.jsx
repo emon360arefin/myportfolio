@@ -35,15 +35,15 @@ const Header = () => {
     let [open, setOpen] = useState(true)
 
     return (
-        <div className={`${scroll ? 'bg-[#e0e5ebd6] shadow-sm backdrop-blur' : ' bg-transparent shadow-none '}  header z-[15] sticky top-0 `}>
+        <div className={`${scroll ? 'bg-[#e9f0f8f0] shadow-sm backdrop-blur' : ' bg-transparent shadow-none '}  header z-[15] sticky top-0 `}>
             <div className={`max-w-6xl mx-auto flex transition-all duration-500 ease-in-out ${scroll ? 'h-[60px] md:h-[70px]' : 'h-[75px] md:h-[90px]'}`}>
-                <div className='w-full md:w-2/12 bg-[#E2E7ED] md:bg-transparent  py-4 flex z-20'>
+                <div className='w-full md:w-2/12 bg-[#e9f0f8f0] md:bg-transparent  py-4 flex z-20'>
                     <NavLink className='  px-4 flex items-center ' to='/'> <img className={`w-[10%] transition-all duration-500 ease-in-out ${scroll ? 'md:w-[30%]' : 'md:w-[35%]'}`} src="/logo.png" alt="" /></NavLink>
                     <div onClick={() => setOpen(!open)} className='md:hidden mr-4 text-2xl text-primary-text flex items-center cursor-pointer'>
                         {open ? <RxHamburgerMenu /> : <RxCross2 />}
                     </div>
                 </div>
-                <ul className={`w-full md:w-10/12 md:backdrop-blur-0  text-right absolute md:static bg-[#fffffff6] backdrop-blur-xl  md:bg-transparent  flex md:flex-row flex-col md:items-center justify-end items-start z-10 gap-4 px-4  pb-4 md:py-4 transition-all duration-500 ease-in-out ${open ? 'top-[-450px]' : 'top-12'} ${scroll ? 'pt-6' : 'pt-10'}`}>
+                <ul className={`w-full md:w-10/12 md:backdrop-blur-0  text-right absolute md:static bg-[#e9f0f8f9] shadow-sm backdrop-blur-2xl  md:bg-transparent  flex md:flex-row flex-col md:items-center justify-end items-start z-10 gap-4 px-4  pb-4 md:py-4 transition-all duration-500 ease-in-out ${open ? 'top-[-450px]' : 'top-12'} ${scroll ? 'pt-6' : 'pt-10'}`}>
                     {
                         items.map(item =>
                             <NavLink
@@ -54,7 +54,7 @@ const Header = () => {
                                     to={item.path}
                                     spy={true}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={-80}
                                     duration={100}
                                     activeClass={activeClass}
                                     className='px-2 text-[17px] '
