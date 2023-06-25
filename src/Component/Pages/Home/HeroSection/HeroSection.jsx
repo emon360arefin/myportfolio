@@ -3,7 +3,7 @@ import React from 'react';
 const HeroSection = () => {
     return (
         <div>
-            <div id='home' className="relative h-full md:h-full bg-[#EEF3F7]">
+            <div id='home' className="relative h-full md:h-full bg-[#EEF3F7] -mt-24">
                 {/* <img className='cover' src="/Overlay 3.png" alt="" /> */}
 
                 <div className="bg-[url('/overlay-4.png')] opacity-90 bg-left-bottom bg-no-repeat bg-cover h-screen">

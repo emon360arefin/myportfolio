@@ -35,7 +35,7 @@ const Header = () => {
     let [open, setOpen] = useState(true)
 
     return (
-        <div className={`${scroll ? 'bg-[#e0e5ebd6] shadow-sm backdrop-blur' : ' bg-transparent shadow-none '}  header z-[15] sticky top-0 -mb-24`}>
+        <div className={`${scroll ? 'bg-[#e0e5ebd6] shadow-sm backdrop-blur' : ' bg-transparent shadow-none '}  header z-[15] sticky top-0 `}>
             <div className={`max-w-6xl mx-auto flex transition-all duration-500 ease-in-out ${scroll ? 'h-[60px] md:h-[70px]' : 'h-[75px] md:h-[90px]'}`}>
                 <div className='w-full md:w-2/12 bg-[#E2E7ED] md:bg-transparent  py-4 flex z-20'>
                     <NavLink className='  px-4 flex items-center ' to='/'> <img className={`w-[10%] transition-all duration-500 ease-in-out ${scroll ? 'md:w-[30%]' : 'md:w-[35%]'}`} src="/logo.png" alt="" /></NavLink>
@@ -54,6 +54,7 @@ const Header = () => {
                                     to={item.path}
                                     spy={true}
                                     smooth={true}
+                                    offset={-70}
                                     duration={100}
                                     activeClass={activeClass}
                                     className='px-2 text-[17px] '
