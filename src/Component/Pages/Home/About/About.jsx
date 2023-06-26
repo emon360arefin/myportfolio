@@ -1,12 +1,13 @@
 import React from 'react';
+import Heading from '../../../Shared/Heading/Heading';
 
 const About = () => {
     return (
-        <div id='about' className='pt-10 pb-16 md:pt-10 md:pb-20 bg-[#E9F0F8] scroll-mt-60'>
+        <div id='about' className='pt-10 pb-16 md:pt-8 md:pb-20 bg-[#E9F0F8] '>
             <div className=' max-w-6xl mx-auto px-2'>
-                <h2 className='text-3xl md:text-[32px] text-center font-semibold text-secondary-text'>About</h2>
+                <Heading>About</Heading>
 
-                <div className='mt-8 flex flex-col-reverse md:flex-row gap-8'>
+                <div className='mt-12 flex flex-col-reverse md:flex-row gap-8'>
                     <div className='w-full md:w-7/12'>
                         <p className='text-[#637289] text-center md:text-left leading-loose'>As a front-end developer, I bring a strong passion for creating engaging and user-friendly web experiences. With expertise in HTML, CSS, JavaScript, React.js, Express.js, Tailwind CSS and many more, I am well-equipped to tackle modern web development challenges.
 
