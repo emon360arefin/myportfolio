@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "projectName": "LEGOBOTIC",
+        "projectType": "MERN Stack Application",
+        "fullScreenShot": "https://i.ibb.co/48Dh2jt/LEGOBOTIC.jpg",
+        "projectDetail": [
+            "Utilized React.js to develop dynamic and interactive components",
+            "Responsive design with Tailwind CSS to enhance the user experience",
+            "Implemented Firebase Auth for secure user registration and login"
+        ],
+        "projectDescription": "This project is a MERN stack application called LEGOBOTIC. It includes features such as dynamic and interactive components developed using React.js, a responsive design achieved with Tailwind CSS, and secure user registration and login through Firebase Auth.",
+        "technologies": [
+            "ReactJS",
+            "Tailwind",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "Firebase"
+        ],
+        "liveLink": "https://silver-stroopwafel-4a0ee3.netlify.app/",
+        "gitRepo": "https://github.com/emon360arefin/legobotic-client.git"
+    },
+    {
+        "id": 2,
+        "projectName": "FOODIXIR",
+        "projectType": "MERN Stack Application",
+        "fullScreenShot": "https://i.ibb.co/GCfZXQN/Foodixir.jpg",
+        "projectDetail": [
+            "Used ReactJS and Tailwind for visually user experience",
+            "Hosted the site on Netlify"
+        ],
+        "projectDescription": "FOODIXIR is a MERN stack application focused on providing a visually pleasing user experience. It is built using ReactJS and Tailwind CSS. The site is hosted on Netlify.",
+        "technologies": [
+            "ReactJS",
+            "Tailwind",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "Netlify"
+        ],
+        "liveLink": "https://assignment10-2757a.web.app/",
+        "gitRepo": "https://github.com/emon360arefin/foodixir-client.git"
+    },
+    {
+        "id": 3,
+        "projectName": "ALVI USA",
+        "projectType": "WordPress Website for Business",
+        "fullScreenShot": "https://i.ibb.co/BTBX70M/Alvi-USA-Home.jpg",
+        "projectDetail": [
+            "Fully responsive and unique",
+            "Used Elementor page builder that is helpful to customize for client",
+            "All the visual content is designed by me"
+        ],
+        "projectDescription": "ALVI USA is a WordPress website developed for a business. It is fully responsive and unique in design. Elementor page builder was used to facilitate customization for the client, and all the visual content was designed by the developer.",
+        "technologies": [
+            "WordPress",
+            "Elementor"
+        ],
+        "liveLink": "https://www.alvisusa.com/"
+    },
+    {
+        "id": 4,
+        "projectName": "LEMETRIA",
+        "projectType": "WordPress Portfolio Website",
+        "fullScreenShot": "https://i.ibb.co/RC9myNS/Lemetria-Whitehurst.jpg",
+        "projectDetail": [
+            "Blogging business development along with portfolio",
+            "Used Elementor for responsive design with popup newsletter"
+        ],
+        "projectDescription": "LEMETRIA is a WordPress portfolio website that combines blogging for business development and showcases a portfolio. It was developed using WordPress and utilized Elementor for responsive design. Additionally, a popup newsletter feature was implemented.",
+        "technologies": [
+            "WordPress",
+            "Elementor"
+        ],
+        "liveLink": "https://lemetriawhitehurst.com/"
+    }
+]

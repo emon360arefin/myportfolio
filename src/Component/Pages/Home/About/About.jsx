@@ -8,7 +8,7 @@ const About = () => {
                 <Heading>About</Heading>
 
                 <div className='mt-12 flex flex-col-reverse md:flex-row gap-8'>
-                    <div className='w-full md:w-7/12'>
+                    <div className='w-full md:w-7/12 flex flex-col justify-center'>
                         <p className='text-[#637289] text-center md:text-left leading-loose'>As a front-end developer, I bring a strong passion for creating engaging and user-friendly web experiences. With expertise in HTML, CSS, JavaScript, React.js, Express.js, Tailwind CSS and many more, I am well-equipped to tackle modern web development challenges.
 
                             With over 150 projects completed on Fiverr, I have achieved  Level 2 seller status with a consistent 5-star rating. Specializing in WordPress websites using the Elementor Page Builder, I have honed my design skills and delivered tailored solutions that exceed client expectations.</p>
