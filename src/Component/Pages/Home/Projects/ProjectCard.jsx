@@ -13,10 +13,10 @@ const ProjectCard = (props) => {
     return (
         <div className='bg-gradient-to-br from-[#E1E6EC] to-white w-full  p-[10px]'>
             <div className='border h-[350px] overflow-hidden rounded-[10px]'>
-                <a >
+                <Link onClick={() => setOpen(true)}>
                     <img className='w-full hover:-translate-y-[calc(100%-350px)] transition-transform ease-in-out duration-[5s]'
                         src={fullScreenShot} alt="" />
-                </a>
+                </Link>
             </div>
 
             <div className='mt-4'>
