@@ -54,7 +54,7 @@ const Header = () => {
                                     to={item.path}
                                     spy={true}
                                     smooth={true}
-                                    offset={-100}
+                                    offset={-90}
                                     duration={100}
                                     activeClass={activeClass}
                                     className='px-2 text-[17px] '

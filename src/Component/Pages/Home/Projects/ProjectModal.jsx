@@ -1,5 +1,7 @@
 import React from 'react';
 import { RxCross2 } from "react-icons/rx";
+import Button from '../../../Shared/Button/Button';
+import { Link } from 'react-router-dom';
 
 const ProjectModal = (props) => {
 
@@ -24,7 +26,22 @@ const ProjectModal = (props) => {
                     </div>
 
                     <div className='mt-4'>
-                        <h2 className='text-lg'> <span className='font-semibold'>{projectName}</span>  - {projectType}</h2>
+                        <div className='flex flex-col md:flex-row justify-between'>
+                            <h2 className='text-lg md:text-2xl'> <span className='font-semibold'>{projectName}</span>  - {projectType}</h2>
+
+                            <div className='flex mt-2 md:mt-0 gap-8 w-full md:w-1/3 justify-start md:justify-end'>
+
+                                <a className='w-full md:w-1/2' target="_blank" rel='noreferrer' href={liveLink}>
+                                    <Button>Live Site</Button>
+                                </a>
+
+                                {
+                                    gitRepo && <a className='w-full md:w-1/2' target="_blank" rel='noreferrer' href={gitRepo} >
+                                        <Button>GitHub</Button>
+                                    </a>
+                                }
+                            </div>
+                        </div>
 
                         <ul className='ml-6 mt-2'>
                             {projectDetail && projectDetail.map((detail, index) => <li
