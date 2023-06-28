@@ -1,5 +1,6 @@
 {
     "name": "emon-portfolio",
+    "homepage": "https://emonarefin.com/",
     "private": true,
     "version": "0.0.0",
     "type": "module",

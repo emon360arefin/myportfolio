@@ -14,16 +14,16 @@ const About = () => {
                             With over 150 projects completed on Fiverr, I have achieved  Level 2 seller status with a consistent 5-star rating. Specializing in WordPress websites using the Elementor Page Builder, I have honed my design skills and delivered tailored solutions that exceed client expectations.</p>
 
                         <div className='flex flex-wrap gap-6 md:gap-10 justify-center items-center mt-6'>
-                            <img className='w-12 h-12' src="/public/Resized/html.png" alt="" />
-                            <img className='w-12 h-12' src="/public/Resized/css.png" alt="" />
-                            <img className='w-12 h-12' src="/public/Resized/js.png" alt="" />
-                            <img className='w-12 h-12' src="/public/Resized/bootstrap.png" alt="" />
-                            <img className='w-12 h-12' src="/public/Resized/tailwind.png" alt="" />
-                            <img className='w-12 h-12' src="/public/Resized/react.png" alt="" />
-                            <img className='w-12 h-12' src="/public/Resized/node.png" alt="" />
-                            <img className='w-12 h-12' src="/public/Resized/express.png" alt="" />
-                            <img className='w-12 h-12' src="/public/Resized/mongo.png" alt="" />
-                            <img className='w-12 h-12' src="/public/Resized/fiverr Level  2 b.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/html.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/css.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/js.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/bootstrap.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/tailwind.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/react.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/node.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/express.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/mongo.png" alt="" />
+                            <img className='w-12 h-12' src="/Resized/fiverr Level  2 b.png" alt="" />
                         </div>
                     </div>
 
