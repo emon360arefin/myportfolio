@@ -20,7 +20,7 @@ const ProjectCard = (props) => {
             </div>
 
             <div className='mt-4'>
-                <h2 className='text-xl'> <span className='font-semibold'>{projectName}</span>  - {projectType}</h2>
+                <h2 className='text-xl text-[#1F2937]'> <span className='font-semibold'>{projectName}</span>  - {projectType}</h2>
             </div>
 
             <div className='mt-4'>

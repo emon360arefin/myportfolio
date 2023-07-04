@@ -37,7 +37,7 @@ const Photography = () => {
 
 
 
-                <div className='mt-4 columns-1 md:columns-3'>
+                <div className='mt-10 columns-1 md:columns-3'>
                     {
                         images && images.map((image, index) => {
                             return (
