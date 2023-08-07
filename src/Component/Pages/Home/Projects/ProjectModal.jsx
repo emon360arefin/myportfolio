@@ -18,8 +18,6 @@ const ProjectModal = (props) => {
     };
 
 
-
-
     return (
         <div className='modal-container h-full w-full fixed top-0 left-0 flex justify-center items-center z-20'>
 
