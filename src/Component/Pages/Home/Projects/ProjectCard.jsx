@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from '../../../Shared/Button/Button';
 import { Link } from 'react-router-dom';
 import ProjectModal from './ProjectModal';
@@ -6,6 +6,14 @@ import ProjectModal from './ProjectModal';
 const ProjectCard = (props) => {
 
     const [open, setOpen] = useState(false)
+
+    useEffect(() => {
+        if (open) {
+            document.body.style = "overflow:hidden";
+        } else {
+            document.body.style = "overflow:auto";
+        }
+    }, [open]);
 
     const { id, projectName, projectType, fullScreenShot, projectDetail, projectDescription, technologies, liveLink, gitRepo } = props.project
 

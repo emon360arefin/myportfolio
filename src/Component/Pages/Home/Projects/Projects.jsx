@@ -13,6 +13,8 @@ const Projects = () => {
             .then(data => setProjects(data))
     }, [])
 
+    
+
 
     return (
         <div id='projects' className='py-16 md:py-20 bg-[#E9F0F8] border-t'>
