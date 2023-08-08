@@ -1,6 +1,27 @@
 [
     {
         "id": 1,
+        "projectName": "FOODIXIR",
+        "projectType": "MERN Stack Application",
+        "fullScreenShot": "https://i.ibb.co/GCfZXQN/Foodixir.jpg",
+        "projectDetail": [
+            "Used ReactJS and Tailwind for visually user experience",
+            "Hosted the site on Netlify"
+        ],
+        "projectDescription": "FOODIXIR is a MERN stack application focused on providing a visually pleasing user experience. It is built using ReactJS and Tailwind CSS. The site is hosted on Netlify.",
+        "technologies": [
+            "https://i.ibb.co/jkc0gDY/react.png",
+            "https://i.ibb.co/k5wbWyL/tailwind.png",
+            "https://i.ibb.co/FxJFhdW/node.png",
+            "https://i.ibb.co/N1gvk01/express.png",
+            "https://i.ibb.co/qRfCwS4/mongo.png",
+            "https://i.ibb.co/BV6Cm1F/firebase.png"
+        ],
+        "liveLink": "https://foodixir.netlify.app/",
+        "gitRepo": "https://github.com/emon360arefin/foodixir-client.git"
+    },
+    {
+        "id": 2,
         "projectName": "LEGOBOTIC",
         "projectType": "MERN Stack Application",
         "fullScreenShot": "https://i.ibb.co/48Dh2jt/LEGOBOTIC.jpg",
@@ -20,27 +41,6 @@
         ],
         "liveLink": "https://silver-stroopwafel-4a0ee3.netlify.app/",
         "gitRepo": "https://github.com/emon360arefin/legobotic-client.git"
-    },
-    {
-        "id": 2,
-        "projectName": "FOODIXIR",
-        "projectType": "MERN Stack Application",
-        "fullScreenShot": "https://i.ibb.co/GCfZXQN/Foodixir.jpg",
-        "projectDetail": [
-            "Used ReactJS and Tailwind for visually user experience",
-            "Hosted the site on Netlify"
-        ],
-        "projectDescription": "FOODIXIR is a MERN stack application focused on providing a visually pleasing user experience. It is built using ReactJS and Tailwind CSS. The site is hosted on Netlify.",
-        "technologies": [
-            "https://i.ibb.co/jkc0gDY/react.png",
-            "https://i.ibb.co/k5wbWyL/tailwind.png",
-            "https://i.ibb.co/FxJFhdW/node.png",
-            "https://i.ibb.co/N1gvk01/express.png",
-            "https://i.ibb.co/qRfCwS4/mongo.png",
-            "https://i.ibb.co/BV6Cm1F/firebase.png"
-        ],
-        "liveLink": "https://foodixir.netlify.app/",
-        "gitRepo": "https://github.com/emon360arefin/foodixir-client.git"
     },
     {
         "id": 3,
