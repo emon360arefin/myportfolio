@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <p className='mt-10 text-sm text-[#7a7d81]'>Copyright © Emon Arefin, All Rights Reserved - 2023</p>
+                <p className='mt-10 text-sm text-[#7a7d81]'>Copyright © Emon Arefin, All Rights Reserved</p>
 
             </div>
         </div>
