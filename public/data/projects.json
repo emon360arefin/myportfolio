@@ -80,5 +80,21 @@
             "https://i.ibb.co/Fb9HvbP/elementor.png"
         ],
         "liveLink": "https://www.alvisatellites.com/"
+    },
+    {
+        "id": 4,
+        "projectName": "LEMETRIA",
+        "projectType": "WordPress Portfolio Website",
+        "fullScreenShot": "https://i.ibb.co/RC9myNS/Lemetria-Whitehurst.jpg",
+        "projectDetail": [
+            "Blogging business development along with portfolio",
+            "Used Elementor for responsive design with popup newsletter"
+        ],
+        "projectDescription": "LEMETRIA is a WordPress portfolio website that combines blogging for business development and showcases a portfolio. It was developed using WordPress and utilized Elementor for responsive design. Additionally, a popup newsletter feature was implemented.",
+        "technologies": [
+            "https://i.ibb.co/RHNnLVZ/wordpress-318-183439.png",
+            "https://i.ibb.co/Fb9HvbP/elementor.png"
+        ],
+        "liveLink": "https://lemetriawhitehurst.com/"
     }
 ]
