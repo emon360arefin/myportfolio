@@ -20,9 +20,9 @@ const ProjectCard = (props) => {
     console.log("Props", projectName);
     return (
         <div className='bg-gradient-to-br from-[#E1E6EC] to-white w-full  p-[10px]'>
-            <div className='border h-[350px] overflow-hidden rounded-[10px]'>
+            <div className='border h-[250px] overflow-hidden rounded-[10px]'>
                 <Link onClick={() => setOpen(true)}>
-                    <img className='w-full hover:-translate-y-[calc(100%-350px)] transition-transform ease-in-out duration-[5s]'
+                    <img className='w-full hover:-translate-y-[calc(100%-250px)] transition-transform ease-in-out duration-[5s]'
                         src={fullScreenShot} alt="" />
                 </Link>
             </div>
