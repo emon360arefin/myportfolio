@@ -1,5 +1,22 @@
 [
     {
+        "id": 5,
+        "projectName": "FONTAWESOME CLONE",
+        "projectType": "ReactJS website",
+        "fullScreenShot": "https://i.ibb.co/MDpYCv5/Free-Icons-Fontawesome.jpg",
+        "projectDetail": [
+            "Implement multiple category selection functionality which allows users to select multiple filters simultaneously",
+            "Sorting the fetched data in ascending alphabetic order",
+            "Implement the search functionality with real-time result"
+        ],
+        "projectDescription": "This webpage is an exact replica of the FontAwesome search page. Here I clone the exact same look as well as some key features like multiple selections simultaneously. Other than that, I have also implemented search functionality and sorting feature",
+        "technologies": [
+            "https://i.ibb.co/jkc0gDY/react.png",
+            "https://i.ibb.co/k5wbWyL/tailwind.png"
+        ],
+        "liveLink": "https://fontawesome-emonarefin.netlify.app/"
+    },
+    {
         "id": 1,
         "projectName": "MINDWAVE",
         "projectType": "MERN Stack Application",
