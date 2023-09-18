@@ -31,7 +31,7 @@ const ProjectModal = (props) => {
 
                         <div className='border h-[250px] md:h-[400px] overflow-hidden rounded-[10px]'>
                             <a >
-                                <img className='w-full hover:-translate-y-[calc(100%-350px)] transition-transform ease-in-out duration-[5s]'
+                                <img className='w-full hover:-translate-y-[calc(100%-400px)] transition-transform ease-in-out duration-[5s]'
                                     src={fullScreenShot} alt="" />
                             </a>
                         </div>
