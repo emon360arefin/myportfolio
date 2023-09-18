@@ -2,7 +2,7 @@
     {
         "id": 5,
         "projectName": "FONTAWESOME CLONE",
-        "projectType": "ReactJS website",
+        "projectType": "ReactJS Website",
         "fullScreenShot": "https://i.ibb.co/MDpYCv5/Free-Icons-Fontawesome.jpg",
         "projectDetail": [
             "Implement multiple category selection functionality which allows users to select multiple filters simultaneously",
@@ -14,7 +14,8 @@
             "https://i.ibb.co/jkc0gDY/react.png",
             "https://i.ibb.co/k5wbWyL/tailwind.png"
         ],
-        "liveLink": "https://fontawesome-emonarefin.netlify.app/"
+        "liveLink": "https://fontawesome-emonarefin.netlify.app/",
+        "gitRepo": "https://github.com/emon360arefin/fontawesome-clone.git"
     },
     {
         "id": 1,
